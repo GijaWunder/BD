@@ -34,5 +34,13 @@ insert into livros values(2,2,1, 'O pequeno principe', null, 20.00);
 insert into livros values(3,1,2, 'Memorias postumas de bras', null, 10.00);
 
 
+update categorias 
+set descricao = "Romance Classico"
+where idCategoria = 1;
+
+update categorias 
+set descricao = "Romance Classico"
+where idCategoria = 1;
+
 
 describe table livros;
